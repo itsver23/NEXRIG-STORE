@@ -1,0 +1,15 @@
+# Add this under flutter: -> assets: in your existing pubspec.yaml
+# (Do NOT replace your whole pubspec.yaml.)
+flutter:
+  assets:
+    - assets/images/nexrig_loading_bg.jpg
+
+# Add at ROOT indentation in pubspec.yaml:
+flutter_native_splash:
+  color: "#050716"
+  image: assets/images/nexrig_splash_logo.png
+  android_12:
+    color: "#050716"
+    image: assets/images/nexrig_splash_logo.png
+  android: true
+  ios: false

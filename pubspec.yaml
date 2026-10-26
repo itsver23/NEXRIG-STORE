@@ -1,0 +1,43 @@
+name: myapp
+description: NEXRIG STORE - Flutter Supabase Xendit
+publish_to: none
+version: 1.1.0+2
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.8
+  supabase_flutter: ^2.18.3
+  url_launcher: ^6.3.1
+  webview_flutter: ^4.14.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/hero.webp
+    - assets/hero_alt.webp
+    - assets/products/
+    - assets/images/
+
+flutter_native_splash:
+  color: "#08070D"
+  image: assets/images/nexrig_splash_logo.png
+  android_12:
+    color: "#08070D"
+    image: assets/images/nexrig_splash_icon_safe.png
+    icon_background_color: "#08070D"
+  android: true
+  ios: false
+  web: false
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/nexrig_logo.png"
+
+
